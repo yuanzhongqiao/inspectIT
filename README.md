@@ -1,224 +1,324 @@
-| :fire: inspectIT OpenCensus Edition has been released :fire: |
-| --- |
-| The **inspectIT OCE** project provides an *improved Java agent newly developed from scratch* focusing on scalability, compatibility, flexibility and interaction with other awesome open source tools and frameworks. <br /><br /> :small_orange_diamond: Check it out: [inspectIT OpenCensus Edition](https://github.com/inspectIT/inspectit-oce) |
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔥 inspectIT OpenCensus 版本已发布 🔥</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT OCE</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目</font><font style="vertical-align: inherit;">提供了一个</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改进的 Java 代理，它是从头开始新开发的，</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">专注于可扩展性、兼容性、灵活性以及与其他出色的开源工具和框架的交互。🔸</font></font><br><br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看：</font></font><a href="https://github.com/inspectIT/inspectit-oce"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT OpenCensus 版本</font></font></a></td>
+</tr>
+</tbody>
+</table>
+<p dir="auto"><a href="http://jenkins.inspectit.rocks/job/inspectIT%20-%20Integration/" rel="nofollow"><img src="https://camo.githubusercontent.com/6693553ea4b4a4787dc258cdf660ebff751e2fe23b4a2cd6de0bfb8889d151d1/687474703a2f2f6a656e6b696e732e696e737065637469742e726f636b732f6275696c645374617475732f69636f6e3f6a6f623d696e737065637449542532302d253230496e746567726174696f6e" alt="构建状态" data-canonical-src="http://jenkins.inspectit.rocks/buildStatus/icon?job=inspectIT%20-%20Integration" style="max-width: 100%;"></a> <a href="https://github.com/inspectIT/inspectIT/blob/master/license/LICENSE.txt"><img src="https://camo.githubusercontent.com/34de01980b96df50d890ac3b3e29cf4e231cbae3749b2deaeccdbd8ad293ee5d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d4170616368652f76322d627269676874677265656e2e737667" alt="执照" data-canonical-src="https://img.shields.io/badge/License-Apache/v2-brightgreen.svg" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查IT</font></font></h1><a id="user-content-inspectit" class="anchor" aria-label="永久链接：inspectIT" href="#inspectit"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="http://www.inspectit.rocks/" rel="nofollow"><img src="https://raw.githubusercontent.com/inspectit-labs/awesome-inspectit/master/media/inspectit.png" alt="检查IT" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="http://inspectit.rocks" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是领先的开源 APM（应用程序性能管理）工具，用于监控和分析您的 Java（EE）软件应用程序。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">各种传感器捕获来自最终用户、业务层和后端的每个请求的端到端信息。inspectIT 基于以应用程序为中心、以业务为中心的方法，其中每个技术请求都映射到应用程序和业务用例。使用 inspectIT，您可以始终了解软件的运行状况，并可以轻松分析出现的任何问题。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于 Web 应用程序，该工具使用自动 JavaScript 代理注入集成了</font></font><a href="#user-content-end-user-monitoring"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最终用户监控</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。这样可以轻松监控真实用户在浏览器中面临的性能。此外，inspectIT 可以将浏览器中的所有用户操作与后端跟踪关联起来，从而提供完整的用户体验图景。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们希望我们能够共同打造一款替代现有（优秀！）商业工具的产品，这样最终用户就可以自行选择自己的工具。</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让我们让 inspectIT 更加出色！</font></font></strong></p>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📣 路线图公告</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT 团队希望向公众和我们的开源社区介绍我们心爱的 APM 工具的未来计划和计划路线图。</font></font><a href="http://www.inspectit.rocks/public-announcement-inspectit-future-plans-and-road-map" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在我们的公开公告中阅读更多内容。</font></font></a></td>
+</tr>
+</tbody>
+</table>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特征</font></font></h2><a id="user-content-features" class="anchor" aria-label="固定链接：功能" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看所有请求</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于跟踪的分析</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">远程跟踪</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细信息 (SQL)</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/27556a2ac6578fb47a4fc5f15de5674adc9952f96c57fc4a7d4130b689791728/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f6874744f766572766965772e706e67"><img src="https://camo.githubusercontent.com/27556a2ac6578fb47a4fc5f15de5674adc9952f96c57fc4a7d4130b689791728/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f6874744f766572766965772e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/httOverview.png" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/211771bdc4328a79dd92e5c7953d24d46c38e1e08b6e8f829e8f869bfdca57f5/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f696e766f635769746853514c4c6f636174652e706e67"><img src="https://camo.githubusercontent.com/211771bdc4328a79dd92e5c7953d24d46c38e1e08b6e8f829e8f869bfdca57f5/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f696e766f635769746853514c4c6f636174652e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/invocWithSQLLocate.png" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/7d478190c07d0a89ea7de3f39a2b4dd7ef98ccab6b4a5a8f1998c983bafb08c2/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f74726163696e674f766572766965772e706e67"><img src="https://camo.githubusercontent.com/7d478190c07d0a89ea7de3f39a2b4dd7ef98ccab6b4a5a8f1998c983bafb08c2/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f74726163696e674f766572766965772e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/tracingOverview.png" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6353721f62239196fd352b85c86eea659a70cb8f460f98adc390a5cc12c2f0db/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f73716c4f766572766965775769746853746f726167652e706e67"><img src="https://camo.githubusercontent.com/6353721f62239196fd352b85c86eea659a70cb8f460f98adc390a5cc12c2f0db/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f73716c4f766572766965775769746853746f726167652e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/sqlOverviewWithStorage.png" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细信息（例外情况）</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">传感器配置</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">业务背景</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">警报</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/212f24995219bb10d6d4a3a4c466c58658c3c8fe90793eecee8387dce4736f26/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f64657461696c73457863657074696f6e732e706e67"><img src="https://camo.githubusercontent.com/212f24995219bb10d6d4a3a4c466c58658c3c8fe90793eecee8387dce4736f26/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f64657461696c73457863657074696f6e732e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/detailsExceptions.png" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/4b0b80c60c147721314860b72d8e9ed517a592971d122bc447383b2555bafdc1/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f73656e736f72436f6e66696775726174696f6e2e706e67"><img src="https://camo.githubusercontent.com/4b0b80c60c147721314860b72d8e9ed517a592971d122bc447383b2555bafdc1/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f73656e736f72436f6e66696775726174696f6e2e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/sensorConfiguration.png" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/96607069598693490fbaf405df689e2cca69c7459a0792e58383322526eb1ab3/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f627573696e657373436f6e746578742e706e67"><img src="https://camo.githubusercontent.com/96607069598693490fbaf405df689e2cca69c7459a0792e58383322526eb1ab3/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f627573696e657373436f6e746578742e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/businessContext.png" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/28fdf6b4b3607c3df88391a2505a44b6ef34bebb2d2d9d5caea12c24e701fa7c/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f616c657274696e672e706e67"><img src="https://camo.githubusercontent.com/28fdf6b4b3607c3df88391a2505a44b6ef34bebb2d2d9d5caea12c24e701fa7c/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f616c657274696e672e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/alerting.png" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监控仪表板</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EUM摘要</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EUM单页</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">EUM 第三方内容</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/44f4a906eec3b8773c8be9a3981e540798d3d361a790f99a32694410aa0d5aee/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f67726166616e6144617368626f617264732e706e67"><img src="https://camo.githubusercontent.com/44f4a906eec3b8773c8be9a3981e540798d3d361a790f99a32694410aa0d5aee/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f67726166616e6144617368626f617264732e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/grafanaDashboards.png" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2070f9ad44ef6e69ec2f25daa30444ca9ae9b93c33bd23553e1f183e1e5c775e/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f45554d5f53756d6d6172792e706e67"><img src="https://camo.githubusercontent.com/2070f9ad44ef6e69ec2f25daa30444ca9ae9b93c33bd23553e1f183e1e5c775e/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f45554d5f53756d6d6172792e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/EUM_Summary.png" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/5fff66e427554b824428436b856321fd17c388cab1fc3f03e8fa8df36d27ad42/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f45554d5f4f6e655f706167652e706e67"><img src="https://camo.githubusercontent.com/5fff66e427554b824428436b856321fd17c388cab1fc3f03e8fa8df36d27ad42/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f45554d5f4f6e655f706167652e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/EUM_One_page.png" style="max-width: 100%;"></a></td>
+<td><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/49a3c2323af5f2c8c97181c95b237e5ae6cee03b20d9af5acfee97a5b5738425/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f45554d2d3372642d50617274792e706e67"><img src="https://camo.githubusercontent.com/49a3c2323af5f2c8c97181c95b237e5ae6cee03b20d9af5acfee97a5b5738425/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f73637265656e73686f74732f45554d2d3372642d50617274792e706e67" alt="" data-canonical-src="http://inspectit.github.io/inspectIT/screenshots/EUM-3rd-Party.png" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table>
+<ul dir="auto">
+<li><a href="#user-content-end-user-monitoring"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">浏览器最终用户监控</font></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：自动将 JavaScript 代理注入到您的应用程序 HTML 代码中。</font></font></li>
+<li><a href="#user-content-tracing"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于踪迹</font></font></strong></a>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含与系统的所有交互的每个请求的详细跟踪表示（调用序列）。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持基于 HTTP 和 JMS 的 JVM 间通信：每个跟踪都显示与所有相关 JVM 的交互。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持浏览器-JVM 通信：浏览器中的用户操作与后端请求之间的关联。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现 OpenTracing.io API 的 SDK。所有用户跨度都与 InspectIT 测量结果结合在一次跟踪中。</font></font></li>
+</ul>
+</li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">信息种类</font></font></strong>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动丰富每个跟踪的 HTTP 信息、SQL 查询、异常、参数等。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">详细的异常捕获允许分析功能问题。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">深入研究一个调用序列来查找和分析有问题的请求。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从调用序列中的问题开始深入研究，并找到与业务相关的信息，例如发送请求的 URL。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">每个捕获指标的聚合视图，例如</font></font><a href="http://inspectit.github.io/inspectIT/screenshots/sqlOverviewWithStorage.png" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聚合 SQL 概览</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">显示按 SQL 查询聚合的指标。</font></font></li>
+</ul>
+</li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">业务背景</font></font></strong>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用灵活的业务上下文定义来查看应用程序的业务交易。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">根据功能用例监控和分析请求。</font></font></li>
+</ul>
+</li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监控</font></font></strong>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监控您的硬件指标，如 CPU、内存或线程。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监控通过 JMX bean 公开的指标。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与 influxDB 和 Grafana 集成，可使用</font></font><a href="https://github.com/inspectit-labs/dashboards"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预定义的仪表板</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松监控。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可以针对所有长期监测数据发送简单的电子邮件警报。</font></font></li>
+</ul>
+</li>
+<li><a href="#user-content-automatic-performance-problems-detection"><strong><font style="vertical-align: inherit;"></font></strong></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于自动检测性能问题的</font><a href="#user-content-automatic-performance-problems-detection"><strong><font style="vertical-align: inherit;">诊断服务。</font></strong></a></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">RESTful API</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于自动化和与其他工具集成。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最佳可用性</font></font></strong>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在您的应用程序中轻松透明地</font></font><a href="#user-content-integration"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT 代理（兼容 Java 6、7、8 和 9）。</font></font></li>
+<li><a href="#user-content-out-of-the-box-profiles"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开箱即用的配置文件，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可快速启动。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">动态检测——无需重新启动即可更改受监控的 JVM 上的测量点。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存储、导入和导出包含所有信息的详细跟踪，而不是记下哪些用户点击导致了问题。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">不再需要配置文件！我们为所有事物提供了完全适应的图形配置界面。</font></font></li>
+</ul>
+</li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">针对低开销进行优化</font></font></strong>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">经得起生产考验：在我们的客户和演出交火过程中已使用 8 年以上。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">对于支持中等数量代理的大多数环境来说，一台服务器就足够了。</font></font></li>
+</ul>
+</li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可扩展系统</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：缺少什么？编写自己的扩展。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最终用户监控</font></font></h3><a id="user-content-end-user-monitoring" class="anchor" aria-label="永久链接：最终用户监控" href="#end-user-monitoring"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><sup><g-emoji class="g-emoji" alias="warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚠️</font></font></g-emoji> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们建议首先在安全环境中的系统配置上尝试此功能。</font></font></em></sup></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT 1.8 系列附带一项新功能：浏览器最终用户体验监控 (EUM)。此功能允许您测量最终用户浏览器端的性能，提供比单独后端检测更详细的见解。这是通过自动将 JavaScript 代理注入应用程序 HTML 代码来实现的，该代理反过来会在客户端捕获相关指标并使用 AJAX 请求将它们发送回 inspectIT。查看</font></font><a href="https://inspectit-performance.atlassian.net/wiki/display/DOC18/Working+with+End+User+Monitoring" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方功能文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以帮助您入门。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">追踪</font></font></h3><a id="user-content-tracing" class="anchor" aria-label="永久链接：追踪" href="#tracing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="http://opentracing.io" rel="nofollow"><img src="https://camo.githubusercontent.com/a97a09e609d3f73d632b0f70758fb75f3c6190679fd88f0bcf949dc0eff1458e/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4f70656e54726163696e672d656e61626c65642d626c75652e737667" alt="OpenTracing 徽章" data-canonical-src="https://img.shields.io/badge/OpenTracing-enabled-blue.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT 提供一组远程传感器，用于创建跟踪并关联应用程序中 JVM 节点之间的调用。这些跟踪可以提供用户请求执行的端到端视图，即使它们跨越多个 JVM。此外，如果最终用户监控处于活动状态，inspectIT 能够将浏览器端操作（如页面加载或点击）与产生的后端请求关联起来（</font></font><a href="http://inspectit.github.io/inspectIT/screenshots/tracingOverview.png" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">屏幕截图</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">远程跟踪是根据</font></font><a href="https://github.com/opentracing/specification/blob/master/specification.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenTracing.io 规范</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 inspectIT 中完成的，具有基于跨度的类似数据模型。此外，inspectIT 将捕获的跨度与在每个 JVM 上创建的调用序列相结合，因此，不仅能够提供交互 JVM 的概况，还能提供完整跟踪期间调用执行的详细信息。这包括作为调用序列、SQL 语句、异常、方法调用等的一部分捕获的所有数据。访问</font></font><a href="https://inspectit-performance.atlassian.net/wiki/display/DOC18/Working+with+remote+traces" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方功能文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以帮助您入门。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用一组默认的 inspectIT 配置文件，您可以自动跟踪以下技术和库，而无需更改源代码或依赖项。目前，我们支持：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行器服务 (Java 6+)</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTTP
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apache HttpComponents 异步客户端（版本 4.x）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apache HttpComponents 客户端（版本 4.x）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java Servlet API（版本 2.x 及更高版本）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java URL 连接（Java 6+）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Jetty Http 客户端（版本 7.x 和 8.x）</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Spring Rest 模板（版本 3.x 和 4.x）</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">杰麦斯
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java 消息服务 API（版本 1.x 及更高版本）</font></font></li>
+</ul>
+</li>
+</ul>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenTracing.io </font></font><a href="http://opentracing.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">API实现是作为 inspectIT 的</font></font></a><font style="vertical-align: inherit;"></font><a href="/inspectIT/inspectIT/blob/master/inspectit.agent.java.sdk"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectit.agent.java.sdk</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目的一部分提供的</font><font style="vertical-align: inherit;">。OpenTracing.io API 的用户可以轻松使用 inspectIT 作为实现。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动性能问题检测</font></font></h3><a id="user-content-automatic-performance-problems-detection" class="anchor" aria-label="永久链接：自动性能问题检测" href="#automatic-performance-problems-detection"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><sup><g-emoji class="g-emoji" alias="warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚠️</font></font></g-emoji> <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实验</font></font></em></sup></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://diagnoseit.github.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为诊断IT研究项目</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的成果</font><font style="vertical-align: inherit;">，inspectIT 1.8版提供了集成诊断服务，用于自动检测性能问题。此服务可以分析持续时间超过用户定义基线的请求，并提供有关性能问题可能出现的位置的见解。作为</font></font><a href="https://github.com/inspectit-labs/dashboards"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">监控仪表板</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的一部分，提供了发现的问题概述。访问</font></font><a href="https://inspectit-performance.atlassian.net/wiki/display/DOC18/Working+with+automatic+problem+diagnosis" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">官方功能文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以帮助您入门。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开箱即用的配置文件</font></font></h3><a id="user-content-out-of-the-box-profiles" class="anchor" aria-label="固定链接：开箱即用的配置文件" href="#out-of-the-box-profiles"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT 已附带针对常用 Java 技术的现成工具。如果您的技术缺失，您可以轻松地手动对其进行检测（或</font></font><a href="https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Add+feature+requests" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求新的配置文件</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">）。我们目前支持：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JavaEE
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">企业 Java Bean (EJB)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java 服务器接口 (JSF)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java 事务 API (JTA)</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Servlet API</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">网页服务</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WebSockets</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java 持久性
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JDBC</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">日本电力协会</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">休眠</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">远程通信追踪
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HTTP</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">杰麦斯</font></font></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他的
+</font></font><ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apache Struts</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apache MyFaces 特立尼达</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行器服务跟踪</font></font></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的应用程序平台</font></font></h3><a id="user-content-supported-application-platforms" class="anchor" aria-label="永久链接：支持的应用程序平台" href="#supported-application-platforms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">玻璃鱼</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">IBM WebSphere</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">码头</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">JBoss/Wildfly</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Oracle Weblogic</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">树脂</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">雄猫</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">..</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及任何普通的 Java 应用程序</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目结构</font></font></h3><a id="user-content-project-structure" class="anchor" aria-label="永久链接：项目结构" href="#project-structure"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">描述</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="/inspectIT/inspectIT/blob/master/inspectit.agent.java"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查代理.java</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于检测和监控 Java 6+ 应用程序的代理。</font></font></td>
+</tr>
+<tr>
+<td><a href="/inspectIT/inspectIT/blob/master/inspectit.agent.java.sdk"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查代理.java.sdk</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实现 opentracing.io API 的 Java SDK。</font></font></td>
+</tr>
+<tr>
+<td><a href="/inspectIT/inspectIT/blob/master/inspectit.server"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查服务器</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器组件称为中央测量存储库 (CMR)。</font></font></td>
+</tr>
+<tr>
+<td><a href="/inspectIT/inspectIT/blob/master/inspectit.server.diagnosis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查服务器诊断</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用于自动性能问题诊断的组件（参见</font></font><a href="https://diagnoseit.github.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">诊断IT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目）。</font></font></td>
+</tr>
+<tr>
+<td><a href="/inspectIT/inspectIT/blob/master/inspectit.shared.all"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查共享所有</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">所有项目之间共享的类。</font></font></td>
+</tr>
+<tr>
+<td><a href="/inspectIT/inspectIT/blob/master/inspectit.shared.cs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查共享文件</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">服务器和 UI 项目之间共享的类。</font></font></td>
+</tr>
+<tr>
+<td><a href="/inspectIT/inspectIT/blob/master/inspectit.shared.cs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查.ui.rcp</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">基于 Eclipse RCP 的 inspectIT 用户界面。</font></font></td>
+</tr>
+</tbody>
+</table>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关项目</font></font></h3><a id="user-content-related-projects" class="anchor" aria-label="永久链接：相关项目" href="#related-projects"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT 的实验功能和支持组件位于</font></font><a href="https://github.com/inspectIT-labs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT 实验室</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们的 Docker 集成项目位于</font></font><a href="https://github.com/inspectit-docker"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT Docker</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">一体化</font></font></h2><a id="user-content-integration" class="anchor" aria-label="永久链接：集成" href="#integration"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">将 inspectIT 集成到您的应用程序中是完全透明的，您无需更改任何代码。您唯一需要做的就是将我们的代理放置在您的应用程序中并将其集成到您的启动脚本中。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">集成非常简单，只需在应用程序启动时添加以下内容即可。</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>-javaagent:[INSPECTIT_AGENT_HOME]/inspectit-agent.jar -Dinspectit.repository=[REPOSITORY_IP]:[REPOSITORY_PORT] -Dinspectit.agent.name=[AGENT_DISPLAY_NAME]
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="-javaagent:[INSPECTIT_AGENT_HOME]/inspectit-agent.jar -Dinspectit.repository=[REPOSITORY_IP]:[REPOSITORY_PORT] -Dinspectit.agent.name=[AGENT_DISPLAY_NAME]" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://inspectit-performance.atlassian.net/wiki/display/DOC/End+User+Documentation+Home" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最终用户文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供</font><font style="vertical-align: inherit;">了有关所有受支持平台的 inspectIT 安装的详细文档。如果您有其他问题，请与我们联系。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">入门</font></font></h2><a id="user-content-getting-started" class="anchor" aria-label="永久链接：入门" href="#getting-started"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为了轻松快速地开始使用 inspectIT，请查看以下视频资源。</font></font></p>
+<p dir="auto"><a href="https://www.youtube.com/watch?v=x0fnYSANIFk" rel="nofollow"><img src="https://camo.githubusercontent.com/6e9bc0fcb253b533668d57bd3dedee252899de6c4ffded573535e4ecf588990a/687474703a2f2f696e737065637469742e6769746875622e696f2f696e737065637449542f766964656f2d7468756d626e61696c732f7468756d625f696e746567726174696f6e5f737072696e675f6a6176612e706e67" alt="阿尔特" title="将开源 APM 工具 inspectIT 集成到 Sping Boot 或 Java 应用程序中" data-canonical-src="http://inspectit.github.io/inspectIT/video-thumbnails/thumb_integration_spring_java.png" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载</font></font></h3><a id="user-content-download" class="anchor" aria-label="固定链接：下载" href="#download"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://registry.hub.docker.com/u/inspectit/inspectit/" rel="nofollow"><img src="https://camo.githubusercontent.com/27ef7fef73add1f2a7e17180dd5770afc87f502b6b67507997c2b1f308aea7a0/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f696e737065637469742f696e737065637469742e7376673f6c6162656c3d646f636b657225323070756c6c732532305549" alt="Docker 拉取" data-canonical-src="https://img.shields.io/docker/pulls/inspectit/inspectit.svg?label=docker%20pulls%20UI" style="max-width: 100%;"></a> <a href="https://registry.hub.docker.com/u/inspectit/cmr/" rel="nofollow"><img src="https://camo.githubusercontent.com/8e7489aea5c9e2765c8c68e277584674e9397c8f0dc5853a48ba5e3fa6dc1888/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f696e737065637469742f636d722e7376673f6c6162656c3d646f636b657225323070756c6c73253230434d52" alt="Docker 拉取" data-canonical-src="https://img.shields.io/docker/pulls/inspectit/cmr.svg?label=docker%20pulls%20CMR" style="max-width: 100%;"></a> <a href="https://registry.hub.docker.com/u/inspectit/jetty/" rel="nofollow"><img src="https://camo.githubusercontent.com/7e2a118d0d6cb0df6335722e6def0e81dff18c1743c4490172779d7efb7359ca/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f696e737065637469742f6a657474792e7376673f6c6162656c3d646f636b657225323070756c6c732532306167656e742532306a65747479" alt="Docker 拉取" data-canonical-src="https://img.shields.io/docker/pulls/inspectit/jetty.svg?label=docker%20pulls%20agent%20jetty" style="max-width: 100%;"></a> <a href="https://registry.hub.docker.com/u/inspectit/jboss/" rel="nofollow"><img src="https://camo.githubusercontent.com/d6b2676adfd6ffbbb7b35413519795b56eaf57756e06ba985ac4e75aaaefb74b/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f696e737065637469742f6a626f73732e7376673f6c6162656c3d646f636b657225323070756c6c732532306167656e742532306a626f7373" alt="Docker 拉取" data-canonical-src="https://img.shields.io/docker/pulls/inspectit/jboss.svg?label=docker%20pulls%20agent%20jboss" style="max-width: 100%;"></a> <a href="https://registry.hub.docker.com/u/inspectit/glassfish/" rel="nofollow"><img src="https://camo.githubusercontent.com/c2c7828cd1aadc9b3b6d9cd7577ac5f78649e45bd46bd734a683cd9cba68fc38/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f696e737065637469742f676c617373666973682e7376673f6c6162656c3d646f636b657225323070756c6c732532306167656e74253230676c61737366697368" alt="Docker 拉取" data-canonical-src="https://img.shields.io/docker/pulls/inspectit/glassfish.svg?label=docker%20pulls%20agent%20glassfish" style="max-width: 100%;"></a> <a href="https://registry.hub.docker.com/u/inspectit/tomcat/" rel="nofollow"><img src="https://camo.githubusercontent.com/8aaf1d9bb6a39646fdfa07c83b9f23842799d0dfcdf050a9e884e97da2d41b2f/68747470733a2f2f696d672e736869656c64732e696f2f646f636b65722f70756c6c732f696e737065637469742f746f6d6361742e7376673f6c6162656c3d646f636b657225323070756c6c732532306167656e74253230746f6d636174" alt="Docker 拉取" data-canonical-src="https://img.shields.io/docker/pulls/inspectit/tomcat.svg?label=docker%20pulls%20agent%20tomcat" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过三种方式获取inspectIT：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载</font></font><a href="https://github.com/inspectIT/inspectIT/releases/latest"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最新的稳定版本</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下载</font></font><a href="https://github.com/inspectIT/inspectIT/releases"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">特定版本</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用预先构建的</font></font><a href="https://hub.docker.com/u/inspectit/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker 映像</font></font></a></li>
+</ul>
+<p dir="auto"><em><strong><g-emoji class="g-emoji" alias="warning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚠️</font></font></g-emoji><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mac OSX 用户</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：请阅读</font></font><a href="https://inspectit-performance.atlassian.net/wiki/spaces/DOC18/pages/93687103/Running+on+MacOS" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 MacOS 上运行</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以了解如何在 Mac 上启动 inspectIT UI。</font></font></em></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用演示应用程序尝试一下！</font></font></h3><a id="user-content-try-it-out-with-a-demo-application" class="anchor" aria-label="永久链接：使用演示应用程序尝试一下！" href="#try-it-out-with-a-demo-application"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以通过启动基于 Spring Petclinic 应用程序的演示来轻松测试 inspectIT 功能。存储库</font></font><a href="https://github.com/inspectit-labs/spring-petclinic-microservices"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectit-labs/spring-petclinic-microservices</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">包含将 inspectIT 集成到著名的 Spring 演示应用程序中的启动和 docker 脚本。还可以查看</font></font><a href="https://github.com/inspectit-labs/workshop"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectit-labs/workshop，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解详细的分步研讨会，该研讨会将指导您如何使用 inspectIT 和演示应用程序。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">很棒的 inspectIT 列表</font></font></h3><a id="user-content-awesome-inspectit-list" class="anchor" aria-label="永久链接：精彩的 inspectIT 列表" href="#awesome-inspectit-list"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/inspectit-labs/awesome-inspectit"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您可以在inspectIT 的精彩列表</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">中找到更多有用的资源</font><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">保持联系</font></font></h2><a id="user-content-get-in-touch" class="anchor" aria-label="永久链接：取得联系" href="#get-in-touch"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a href="https://twitter.com/inspectIT_APM" rel="nofollow"><img src="https://camo.githubusercontent.com/d4f80d0c8a3978e4cad0b1fce8f3b2483e8dce8d8a740457d7fbf17056eab9b0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f547769747465722d666f6c6c6f7725323075732d627269676874677265656e2e737667" alt="Twitter 帐户" data-canonical-src="https://img.shields.io/badge/Twitter-follow%20us-brightgreen.svg" style="max-width: 100%;"></a> <a href="https://gitter.im/inspectIT/chat?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge" rel="nofollow"><img src="https://camo.githubusercontent.com/6bb10d894cf647b6eb7b1bd9cf088e37b1dc1d22a7d5b656d5ada70e020b917f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769747465722d6a6f696e253230636861742d627269676874677265656e2e737667" alt="吉特" data-canonical-src="https://img.shields.io/badge/Gitter-join%20chat-brightgreen.svg" style="max-width: 100%;"></a> <a href="https://www.linkedin.com/groups/inspectIT-APM-User-Group-8533412/about" rel="nofollow"><img src="https://camo.githubusercontent.com/b9f145f499a3fbd7789e822c0a2869759ec1ee46f212a705ba4e9345853571f5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c696e6b6564496e2d6a6f696e25323067726f75702d627269676874677265656e2e737667" alt="LinkedIn 群组" data-canonical-src="https://img.shields.io/badge/LinkedIn-join%20group-brightgreen.svg" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们期待您的反馈。欢迎在</font></font><a href="https://gitter.im/inspectIT/chat?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Gitter</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上与我们和其他用户聊天。访问</font></font><a href="https://groups.google.com/forum/#!forum/inspectit" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论坛</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或直接给我们留言</font></font><a href="mailto:info.inspectit@novatec-gmbh.de"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您也可以在 Twitter 上关注我们</font></font><a href="https://twitter.com/inspectit_apm" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@inspectIT_apm</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或加入我们的</font></font><a href="https://www.linkedin.com/groups/inspectIT-APM-User-Group-8533412/about" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LinkedIn 群组</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讨论。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2><a id="user-content-documentation" class="anchor" aria-label="永久链接：文档" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们正在运行 Atlassian Confluence 来存储各种</font></font><a href="https://inspectit-performance.atlassian.net/wiki" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">（感谢 Atlassian 提供的免费许可）：从</font></font><a href="https://inspectit-performance.atlassian.net/wiki/display/DOC/End+User+Documentation+Home" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最终用户文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">到</font></font><a href="https://inspectit-performance.atlassian.net/wiki/display/ROAD/Roadmap+Home" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">路线图</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2><a id="user-content-contribute" class="anchor" aria-label="永久链接：贡献" href="#contribute"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您不必是程序员即可为 inspectIT 做出贡献，但如果是程序员，我们当然欢迎您。以下是您可以做出贡献的简短列表。请参阅我们的</font></font><a href="https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Contribute+Home" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献文档</font></font></a></p>
+<ul dir="auto">
+<li><a href="https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Contribute+documentation" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">改进文档</font></font></a></li>
+<li><a href="https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Contribute+a+bug+report" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">告诉我们错误</font></font></a></li>
+<li><a href="https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Add+feature+requests" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请求新功能</font></font></a></li>
+<li><a href="https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Vote+for+features+and+bugs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过投票确定优先顺序</font></font></a></li>
+<li><a href="https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Contribute+source+code" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">分叉并改进</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发人员</font></font></h3><a id="user-content-developers" class="anchor" aria-label="永久链接：开发人员" href="#developers"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想自行修复错误或实现功能，我们非常欢迎您这样做！为了最轻松地开始，您只需按照我们的</font></font><a href="https://inspectit-performance.atlassian.net/wiki/display/DEV/Development+Environment" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开发环境文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 Eclipse，所有项目和设置都已通过新的官方 Oomph 安装程序预先配置。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">售票处</font></font></h3><a id="user-content-ticketing" class="anchor" aria-label="永久链接：票务" href="#ticketing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们主要使用</font></font><a href="https://inspectit-performance.atlassian.net/secure/Dashboard.jspa" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Atlassian JIRA</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">进行票务处理。但如果您很着急，请随时打开 GitHub 问题。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可</font></font></h2><a id="user-content-licensing" class="anchor" aria-label="永久链接：许可" href="#licensing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT 是根据</font></font><a href="/inspectIT/inspectIT/blob/master/license/LICENSE.txt"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apache 许可证 2.0 版</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">授权的。请参阅我们的</font></font><a href="https://inspectit-performance.atlassian.net/wiki/display/LIC/Licensing" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">许可文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解更多详细信息。（请注意，1.6.7 之前的版本是使用 AGPLv3 授权的）</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商业支持</font></font></h2><a id="user-content-commercial-support" class="anchor" aria-label="永久链接：商业支持" href="#commercial-support"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您需要 inspectIT 的商业支持，请查看NovaTec Consulting GmbH</font></font><a href="http://www.inspectit.rocks/#support" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提供的透明包</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，如果您有兴趣，</font><font style="vertical-align: inherit;">请随时</font></font><a href="http://www.inspectit.rocks/support/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与我们联系。</font></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">赞助</font></font></h2><a id="user-content-sponsoring" class="anchor" aria-label="永久链接：赞助" href="#sponsoring"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="http://www.novatec-gmbh.de/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT 主要由NovaTec Consulting GmbH</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推动，这是一家专门从事软件性能的德国咨询公司。赞助 inspectIT 中的一项功能始终是可能的，并且我们欢迎。只需通过</font></font><a href="https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Sponsor+a+feature" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">赞助一项功能</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">与我们联系即可</font><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">研究/进一步阅读</font></font></h3><a id="user-content-research--further-readings" class="anchor" aria-label="永久链接：研究/进一步阅读" href="#research--further-readings"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="http://diagnoseit.github.io/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">inspectIT 是诊断IT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">研究项目的基地，该项目由</font></font><a href="http://www.bmbf.de" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">德国联邦教育和研究部</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资助</font><font style="vertical-align: inherit;">超过500,000欧元。</font></font></p>
 
 
-[![Build Status](http://jenkins.inspectit.rocks/buildStatus/icon?job=inspectIT%20-%20Integration)](http://jenkins.inspectit.rocks/job/inspectIT%20-%20Integration/) [![License](https://img.shields.io/badge/License-Apache/v2-brightgreen.svg)](https://github.com/inspectIT/inspectIT/blob/master/license/LICENSE.txt)
-
-# inspectIT
-
-[![inspectIT](https://raw.githubusercontent.com/inspectit-labs/awesome-inspectit/master/media/inspectit.png)](http://www.inspectit.rocks/)
-
-[inspectIT](http://inspectit.rocks) is the leading Open Source APM (application performance management) tool for monitoring and analyzing your Java(EE) software applications.
-
-Various sensors capture end-to-end information for every request from the end user, to the business tier all the way to the backends. inspectIT is based on an application-centric, business-focused approach, where each technical request is mapped to an application and to a business use-case. With inspectIT you always know about the health of your software and can easily analyze any problems that arise.
-
-For Web applications the tool integrates the [End user monitoring](#user-content-end-user-monitoring) using automatic JavaScript agent injection. This allows easy monitoring of the performance that real users are facing in the browser. In addition, the inspectIT can correlate all user actions in the browser to the backend traces, thus providing a complete picture on the user experience.
-
-We hope that together we can build an alternative to the (great!) commercial tools available so that it is up the end user to choose his tooling. **Let's make inspectIT even more awesome!**
-
-| :mega: Road-Map Announcement |
-| --- |
-| The inspectIT team would like to inform the public and our open source community about the future plans for our beloved APM tool and the planned roadmap. [You can read more in our public announcment.](http://www.inspectit.rocks/public-announcement-inspectit-future-plans-and-road-map) |
-
-## Features
-
-| See all requests | Trace-based analysis | Remote traces | Details (SQL) |
-| --- | --- | --- | --- |
-| ![](http://inspectit.github.io/inspectIT/screenshots/httOverview.png) | ![](http://inspectit.github.io/inspectIT/screenshots/invocWithSQLLocate.png) | ![](http://inspectit.github.io/inspectIT/screenshots/tracingOverview.png) | ![](http://inspectit.github.io/inspectIT/screenshots/sqlOverviewWithStorage.png) |
-
-| Details (Exceptions) | Sensor configuration | Business context | Alerting |
-| --- | --- | --- | --- |
-| ![](http://inspectit.github.io/inspectIT/screenshots/detailsExceptions.png) | ![](http://inspectit.github.io/inspectIT/screenshots/sensorConfiguration.png) | ![](http://inspectit.github.io/inspectIT/screenshots/businessContext.png) | ![](http://inspectit.github.io/inspectIT/screenshots/alerting.png) | 
-
-| Monitoring dashboards | EUM Summary | EUM Single Page | EUM 3rd Party Content |
-| --- | --- | --- | --- |
-| ![](http://inspectit.github.io/inspectIT/screenshots/grafanaDashboards.png) | ![](http://inspectit.github.io/inspectIT/screenshots/EUM_Summary.png) | ![](http://inspectit.github.io/inspectIT/screenshots/EUM_One_page.png) | ![](http://inspectit.github.io/inspectIT/screenshots/EUM-3rd-Party.png) |
-
-- [**Browser End User Monitoring**](#user-content-end-user-monitoring): automatic injection of a JavaScript agent into your application HTML code.
-- [**Trace Based**](#user-content-tracing)
-  - Detailed trace representation (invocation sequence) for every request containing all interactions with the systems.
-  - Support for inter-JVM communication based on HTTP and JMS: each trace shows interaction with all correlated JVMs.
-  - Support for browser-JVM communication: correlation between user actions in the browser and backend requests.
-  - SDK which implements the OpenTracing.io API. All user spans are combined with inspectIT measurements in a single trace.
-- **Variety of Information**
-  - Automatic enrichment of every trace with HTTP information, SQL queries, exceptions, parameters and many more.
-  - Detailed exception capturing allows to analyze functional problems.
-  - Drill down into one invocation sequence to find and analyze problematic requests.
-  - Drill up from an problem within an invocation sequence and find business-related information like the URL the request was sent to.
-  - Aggregated views for every captured metric, e.g. [aggregated SQL overview](http://inspectit.github.io/inspectIT/screenshots/sqlOverviewWithStorage.png) shows metrics aggregated by SQL query.
-- **Business Context**
-  - Have a view on your application's business transactions by using flexible business context definitions.
-  - Monitor and analyze requests by the functional use-case.
-- **Monitoring**
-  - Monitor your hardware metrics like cpu, memory or threads.
-  - Monitor metrics exposed via JMX beans.
-  - Integration with influxDB and Grafana for easy monitoring with [pre-defined dashboards](https://github.com/inspectit-labs/dashboards).
-  - Simple e-mail alerting is possible on all long-term monitoring data.
-- [**Diagnosis Service**](#user-content-automatic-performance-problems-detection) for automatic performance problem detection. 
-- **RESTful API** for automation and integration with other tools.
-- **Usability at Its Best**
-  - Easy and transparent [integration](#user-content-integration) of the inspectIT agent in your application (compatible with Java 6, 7, 8, and 9).
-  - [Out-of-the-box profiles](#user-content-out-of-the-box-profiles) for a quick start.
-  - Dynamic instrumentation - change measurement points on the monitored JVM without a need for restart.
-  - Store, import and export detailed traces with all information instead of noting down which user-clicks led to a problem.
-  - No more config-files! We have fully adaptable, graphical configuration interfaces for everything.
-- **Optimized for Low Overhead**
-  - Production-proof: Used for >8 years at our customers and during performance firefights.
-  - One server is enough for most environments supporting a medium number of agents.
-- **Extendable system**: Missing something? Write your own extensions.
-
-### End User Monitoring
-<sup>:warning: *We recommend to try this feature on a system configuration in a safe environment first.*</sup>
-
-The inspectIT 1.8 line comes with a new feature: Browser End User Experience Monitoring (EUM). This feature allows you to measure the performance at the browser side of the end user, giving more detailed insights than the back-end instrumentation alone. This is done by automatically injecting a JavaScript agent into your applications HTML code, which in turn captures relevant metrics at the client-side and sends them back to inspectIT using AJAX Requests. Check the [official feature documentation](https://inspectit-performance.atlassian.net/wiki/display/DOC18/Working+with+End+User+Monitoring) to help you started.
-
-### Tracing
-[![OpenTracing Badge](https://img.shields.io/badge/OpenTracing-enabled-blue.svg)](http://opentracing.io)
-
-inspectIT provides a set of remote sensors in order to create traces and correlate calls made between JVM nodes in your application. These traces can provide an end-to-end view on the user request execution, even they are spanning over multiple JVMs. In addition, if end-user-monitoring is active inspectIT is capable of correlating browser side actions, like page loads or clicks, to resulting back-end requests ([screenshot](http://inspectit.github.io/inspectIT/screenshots/tracingOverview.png)).
-
-The remote tracing is done in inspectIT as per [OpenTracing.io specification](https://github.com/opentracing/specification/blob/master/specification.md), with a similar data model based on spans. Furthermore, inspectIT combines the captured spans with the invocation sequences created on each JVM and, thus, is able to provide not only the landscape of the interacting JVMs but also provide detailed information on the invocation execution during complete traces. This includes all the data that is captured as a part of invocation sequence, SQL statements, exceptions, method calls, etc. Visit the [official feature documentation](https://inspectit-performance.atlassian.net/wiki/display/DOC18/Working+with+remote+traces) to help you get started.
-
-With a set of default inspectIT profiles you get automatic tracing for following technologies and libraries without a need to change your source code nor dependencies. Currently, we support:
-
-- Java
-  - Executor service (Java 6+)
-- HTTP
-  - Apache HttpComponents Async Client (version 4.x)
-  - Apache HttpComponents Client (version 4.x)
-  - Java Servlet API (version 2.x & up)
-  - Java URL Connection (Java 6+)
-  - Jetty Http Client (versions 7.x & 8.x)
-  - Spring Rest Template (version 3.x & 4.x)	
-- JMS
-  - Java Message Service API (version 1.x & up)
-
-The [OpenTracing.io API](http://opentracing.io/) implementation is provided as a part of inspectIT's [inspectit.agent.java.sdk](inspectit.agent.java.sdk) project. Users of the OpenTracing.io API can easily use inspectIT as the implementation.
-
-### Automatic Performance Problems Detection 
-<sup>:warning: *Experimental*</sup>
-
-As s result of the [diagnoseIT research project](https://diagnoseit.github.io/), inspectIT's version line 1.8 offers an integrated diagnosis service for automatic performance problems detection. This service can analyze requests lasting longer than a user-defined baseline and provides insights on where the performance problems can be. An overview of found problems is provided as a part of the [monitoring dashboards](https://github.com/inspectit-labs/dashboards). Visit the [official feature documentation](https://inspectit-performance.atlassian.net/wiki/display/DOC18/Working+with+automatic+problem+diagnosis) to help you started.
-
-### Out-Of-The-Box Profiles
-inspectIT already ships with out-of-the-box instrumentations for commonly used Java technologies. If your technology is missing, you can easily instrument it manually (or [request a new profile](https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Add+feature+requests)). We currently support:
-- JavaEE
-  - Enterprise Java Beans (EJB)
-  - Java Server Faces (JSF)
-  - Java Transaction API (JTA)
-  - Servlets API
-  - WebServices
-  - WebSockets
-- Java Persistence
-  - JDBC
-  - JPA
-  - Hibernate
-- Remote Communication Tracing
-  - HTTP
-  - JMS
-- Others
-  - Apache Struts
-  - Apache MyFaces Trinidad
-  - Executor service tracing
-
-### Supported Application Platforms
-- Glassfish
-- IBM WebSphere
-- Jetty
-- JBoss / Wildfly
-- Oracle Weblogic
-- Resin
-- Tomcat
-- ..
-- and any plain Java application
-
-### Project Structure
-Project | Description
---- | ---
-[inspectit.agent.java](inspectit.agent.java) | Agent for instrumenting and monitoring Java 6+ applications.
-[inspectit.agent.java.sdk](inspectit.agent.java.sdk) | Java SDK that implements opentracing.io API.
-[inspectit.server](inspectit.server) | Server component know as Central Measurement Repository (CMR).
-[inspectit.server.diagnosis](inspectit.server.diagnosis) | Component for automatic performance problems diagnosis (see [diagnoseIT](https://diagnoseit.github.io/) project). 
-[inspectit.shared.all](inspectit.shared.all) | Classes shared between all projects. 
-[inspectit.shared.cs](inspectit.shared.cs) | Classes shared between server and UI projects. 
-[inspectit.ui.rcp](inspectit.shared.cs) | inspectIT user interface based on Eclipse RCP.
-
-### Related Projects
-- Experimental features and supporting components of inspectIT are located at [inspectIT Labs]( https://github.com/inspectIT-labs)
-- Our Docker integration projects are located at [inspectIT Docker](https://github.com/inspectit-docker)
-
-## Integration
-The integration of inspectIT in your application is completely transparent, you do not have to change a single line of code. The only thing you have to do is to place our agent with your application and integrate it into your startup script.
-
-The integration is as simple as adding the following to the startup of your application.
-
-```
--javaagent:[INSPECTIT_AGENT_HOME]/inspectit-agent.jar -Dinspectit.repository=[REPOSITORY_IP]:[REPOSITORY_PORT] -Dinspectit.agent.name=[AGENT_DISPLAY_NAME]
-```
-
-The [end user documentation](https://inspectit-performance.atlassian.net/wiki/display/DOC/End+User+Documentation+Home) provides in-depth documentation on the installation of inspectIT for all supported platforms. If you have further questions please get in touch with us.
-
-## Getting Started
-
-For an easy and quick start using inspectIT check out the following video resources.
-
-[![alte](http://inspectit.github.io/inspectIT/video-thumbnails/thumb_integration_spring_java.png "Integration of the open source APM tool inspectIT into a Sping Boot or Java application")](https://www.youtube.com/watch?v=x0fnYSANIFk)
-
-### Download
-[![Docker Pulls](https://img.shields.io/docker/pulls/inspectit/inspectit.svg?label=docker%20pulls%20UI)](https://registry.hub.docker.com/u/inspectit/inspectit/) [![Docker Pulls](https://img.shields.io/docker/pulls/inspectit/cmr.svg?label=docker%20pulls%20CMR)](https://registry.hub.docker.com/u/inspectit/cmr/) [![Docker Pulls](https://img.shields.io/docker/pulls/inspectit/jetty.svg?label=docker%20pulls%20agent%20jetty)](https://registry.hub.docker.com/u/inspectit/jetty/) [![Docker Pulls](https://img.shields.io/docker/pulls/inspectit/jboss.svg?label=docker%20pulls%20agent%20jboss)](https://registry.hub.docker.com/u/inspectit/jboss/) [![Docker Pulls](https://img.shields.io/docker/pulls/inspectit/glassfish.svg?label=docker%20pulls%20agent%20glassfish)](https://registry.hub.docker.com/u/inspectit/glassfish/) [![Docker Pulls](https://img.shields.io/docker/pulls/inspectit/tomcat.svg?label=docker%20pulls%20agent%20tomcat)](https://registry.hub.docker.com/u/inspectit/tomcat/)
-
-You can get inspectIT in three ways:
-- Download the [latest stable release](https://github.com/inspectIT/inspectIT/releases/latest)
-- Download a [specific version](https://github.com/inspectIT/inspectIT/releases)
-- Use a pre-built [Docker image](https://hub.docker.com/u/inspectit/)
-
-***:warning: Mac OSX users**: please read the [Running on MacOS](https://inspectit-performance.atlassian.net/wiki/spaces/DOC18/pages/93687103/Running+on+MacOS) to find out how to start the inspectIT UI on Mac.*
-
-### Try it out with a demo application!
-You can easily test the inspectIT features by starting out the demo based on the Spring Petclinic application. The repository [inspectit-labs/spring-petclinic-microservices](https://github.com/inspectit-labs/spring-petclinic-microservices) contains start-up and docker scripts that integrate the inspectIT into the famous Spring demo app. Also check the [inspectit-labs/workshop](https://github.com/inspectit-labs/workshop) for the in-detail step-by-step workshop that will walk you through using inspectIT with the demo application. 
-
-### Awesome inspectIT List
-You can find a lot more helpful resources in the [inspectIT's awesome list](https://github.com/inspectit-labs/awesome-inspectit).
-
-## Get in Touch
-[![Twitter Account](https://img.shields.io/badge/Twitter-follow%20us-brightgreen.svg)](https://twitter.com/inspectIT_APM) [![Gitter](https://img.shields.io/badge/Gitter-join%20chat-brightgreen.svg)](https://gitter.im/inspectIT/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![LinkedIn Group](https://img.shields.io/badge/LinkedIn-join%20group-brightgreen.svg)](https://www.linkedin.com/groups/inspectIT-APM-User-Group-8533412/about) 
-
-We are interested in your feedback. Come chat with us and other users on [Gitter](https://gitter.im/inspectIT/chat?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge). Visit the [forum](https://groups.google.com/forum/#!forum/inspectit) or simply drop us a [line](mailto:info.inspectit@novatec-gmbh.de). You also might want to follow us at Twitter [@inspectIT_apm](https://twitter.com/inspectit_apm) or join discussions in our [LinkedIn group](https://www.linkedin.com/groups/inspectIT-APM-User-Group-8533412/about).
 
 
-## Documentation
-We are running an Atlassian Confluence for all sorts of [documentation](https://inspectit-performance.atlassian.net/wiki) (thanks to Atlassian for the free license):
-From [end user documentation](https://inspectit-performance.atlassian.net/wiki/display/DOC/End+User+Documentation+Home) to the [road-map](https://inspectit-performance.atlassian.net/wiki/display/ROAD/Roadmap+Home).
-
-## Contribute
-You do not have to be a programmer to contribute to inspectIT, but if you are you are certainly welcome. Here is a short list of how you can contribute. Please see our [Contribution Documentation](https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Contribute+Home)
-- [Improve the documentation](https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Contribute+documentation)
-- [Let us know about bugs](https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Contribute+a+bug+report)
-- [Request new features](https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Add+feature+requests)
-- [Prioritize through voting](https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Vote+for+features+and+bugs)
-- [Fork and improve](https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Contribute+source+code)
-
-### Developers
-If you want to fix Bugs or implement Features on your own, you're very welcome to do so! For the easiest start, you just need to follow our [Development Environment Documentation](https://inspectit-performance.atlassian.net/wiki/display/DEV/Development+Environment) for installing Eclipse with all projects and settings already pre-configured via the new official Oomph installer.
-
-### Ticketing
-We primarily use [Atlassian JIRA](https://inspectit-performance.atlassian.net/secure/Dashboard.jspa) for ticketing. But if you are in a hurry, please feel free to open a GitHub issue.
-
-## Licensing
-inspectIT is licensed under [Apache License version 2.0](license/LICENSE.txt). Please see our [licensing documentation](https://inspectit-performance.atlassian.net/wiki/display/LIC/Licensing) for more details.
-(Note that releases up to 1.6.7 were licensed using AGPLv3)
-
-## Commercial Support
-If you need the commercial support for the inspectIT please check the [transparent package offering](http://www.inspectit.rocks/#support) by NovaTec Consulting GmbH and feel free to [contact us](http://www.inspectit.rocks/support/) if you are interested.
-
-## Sponsoring
-inspectIT is mainly driven by [NovaTec Consulting GmbH](http://www.novatec-gmbh.de/), a German consultancy firm that specializes in software performance. Sponsoring a feature in inspectIT is always possible and welcome. Just get in touch with us through [Sponsor a feature](https://inspectit-performance.atlassian.net/wiki/display/CONTRIBUTE/Sponsor+a+feature).
-
-### Research / Further Readings
-inspectIT is the base for the research project [diagnoseIT](http://diagnoseit.github.io/), sponsored by [German federal ministry of education and research](http://www.bmbf.de) with more than 500.000€.
-
-<!-- interesting badges for further integration -->
-<!-- coveralls.io badge -->
-<!-- [![Coverage Status](https://coveralls.io/repos/OCA/product-attribute/badge.png?branch=8.0)](https://coveralls.io/r/OCA/product-attribute?branch=8.0) -->
-<!-- [![Bountysource](https://img.shields.io/bountysource/team/inspectit/activity.svg)]() -->
+</article></div>
